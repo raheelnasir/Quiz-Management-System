@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --purple: #674CC4;
+
+}
+.outline-button{
+  border: 1px solid var(--purple)!important;
+  color: var(--purple)!important;
+  margin-left: 10px;
+
+}
+.outline-button:hover{
+  background:  var(--purple)!important;
+  color: white!important;
+}
+.login-now-text {
+  justify-content: center;
+
+}
+
+.purple {
+  background-color: var(--purple) !important;
+  color: white!important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

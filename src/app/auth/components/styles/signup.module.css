@@ -1,0 +1,16 @@
+.tabHolderSignup {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+    cursor: pointer;
+}
+
+
+.signActive {
+
+    color: var(--purple);
+    font-size: 18px;
+    border-bottom: 1px solid var(--purple);
+
+}
